@@ -1,0 +1,412 @@
+2020-07-16 18:48:05,133 - tornado.access - INFO - ::1 304 GET / (::1) 96.91ms 2020-07-16 22:48:05
+[I 200716 18:48:05 application:167] ::1 304 GET / (::1) 96.91ms 2020-07-16 22:48:05
+2020-07-16 18:49:40,967 - tornado.access - INFO - ::1 200 GET /index (::1) 13.00ms 2020-07-16 22:49:40
+[I 200716 18:49:40 application:167] ::1 200 GET /index (::1) 13.00ms 2020-07-16 22:49:40
+2020-07-16 18:49:40,968 - tornado.access - INFO - ::1 200 base.error:None 2020-07-16 22:49:40
+[I 200716 18:49:40 application:171] ::1 200 base.error:None 2020-07-16 22:49:40
+2020-07-16 18:49:40,980 - tornado.access - WARNING - ::1 404 GET /index (::1) 26.00ms 2020-07-16 22:49:40
+[W 200716 18:49:40 application:167] ::1 404 GET /index (::1) 26.00ms 2020-07-16 22:49:40
+2020-07-16 18:49:49,605 - tornado.access - INFO - ::1 200 GET /employees (::1) 13.01ms 2020-07-16 22:49:49
+[I 200716 18:49:49 application:167] ::1 200 GET /employees (::1) 13.01ms 2020-07-16 22:49:49
+2020-07-16 18:49:49,605 - tornado.access - INFO - ::1 200 base.error:None 2020-07-16 22:49:49
+[I 200716 18:49:49 application:171] ::1 200 base.error:None 2020-07-16 22:49:49
+2020-07-16 18:49:49,613 - tornado.access - WARNING - ::1 404 GET /employees (::1) 21.04ms 2020-07-16 22:49:49
+[W 200716 18:49:49 application:167] ::1 404 GET /employees (::1) 21.04ms 2020-07-16 22:49:49
+2020-07-16 18:50:24,034 - tornado.access - INFO - ::1 304 GET / (::1) 36.07ms 2020-07-16 22:50:24
+[I 200716 18:50:24 application:167] ::1 304 GET / (::1) 36.07ms 2020-07-16 22:50:24
+2020-07-16 18:53:33,302 - tornado.access - INFO - ::1 200 GET /index/1 (::1) 25.97ms 2020-07-16 22:53:33
+[I 200716 18:53:33 application:167] ::1 200 GET /index/1 (::1) 25.97ms 2020-07-16 22:53:33
+2020-07-16 18:53:33,446 - tornado.access - WARNING - ::1 404 GET /favicon.ico (::1) 1.00ms 2020-07-16 22:53:33
+[W 200716 18:53:33 application:167] ::1 404 GET /favicon.ico (::1) 1.00ms 2020-07-16 22:53:33
+2020-07-16 18:53:38,542 - tornado.access - INFO - ::1 200 GET /index/2 (::1) 13.00ms 2020-07-16 22:53:38
+[I 200716 18:53:38 application:167] ::1 200 GET /index/2 (::1) 13.00ms 2020-07-16 22:53:38
+2020-07-16 18:53:43,387 - tornado.access - INFO - ::1 200 GET /index/10000 (::1) 19.00ms 2020-07-16 22:53:43
+[I 200716 18:53:43 application:167] ::1 200 GET /index/10000 (::1) 19.00ms 2020-07-16 22:53:43
+2020-07-16 18:54:32,741 - tornado.access - INFO - ::1 200 GET //employees (::1) 9.00ms 2020-07-16 22:54:32
+[I 200716 18:54:32 application:167] ::1 200 GET //employees (::1) 9.00ms 2020-07-16 22:54:32
+2020-07-16 18:54:32,741 - tornado.access - INFO - ::1 200 base.error:None 2020-07-16 22:54:32
+[I 200716 18:54:32 application:171] ::1 200 base.error:None 2020-07-16 22:54:32
+2020-07-16 18:54:32,748 - tornado.access - WARNING - ::1 404 GET //employees (::1) 16.00ms 2020-07-16 22:54:32
+[W 200716 18:54:32 application:167] ::1 404 GET //employees (::1) 16.00ms 2020-07-16 22:54:32
+2020-07-16 18:55:16,282 - tornado.access - INFO - ::1 200 GET /employees (::1) 3.97ms 2020-07-16 22:55:16
+[I 200716 18:55:16 application:167] ::1 200 GET /employees (::1) 3.97ms 2020-07-16 22:55:16
+2020-07-16 18:55:16,282 - tornado.access - INFO - ::1 200 base.error:None 2020-07-16 22:55:16
+[I 200716 18:55:16 application:171] ::1 200 base.error:None 2020-07-16 22:55:16
+2020-07-16 18:55:16,288 - tornado.access - WARNING - ::1 404 GET /employees (::1) 9.96ms 2020-07-16 22:55:16
+[W 200716 18:55:16 application:167] ::1 404 GET /employees (::1) 9.96ms 2020-07-16 22:55:16
+2020-07-16 18:55:59,928 - tornado.access - INFO - ::1 200 GET /employees (::1) 5.00ms 2020-07-16 22:55:59
+[I 200716 18:55:59 application:167] ::1 200 GET /employees (::1) 5.00ms 2020-07-16 22:55:59
+2020-07-16 18:55:59,929 - tornado.access - INFO - ::1 200 base.error:None 2020-07-16 22:55:59
+[I 200716 18:55:59 application:171] ::1 200 base.error:None 2020-07-16 22:55:59
+2020-07-16 18:55:59,939 - tornado.access - WARNING - ::1 404 GET /employees (::1) 16.00ms 2020-07-16 22:55:59
+[W 200716 18:55:59 application:167] ::1 404 GET /employees (::1) 16.00ms 2020-07-16 22:55:59
+2020-07-16 18:56:35,331 - tornado.access - INFO - ::1 200 GET /employees (::1) 5.00ms 2020-07-16 22:56:35
+[I 200716 18:56:35 application:167] ::1 200 GET /employees (::1) 5.00ms 2020-07-16 22:56:35
+2020-07-16 18:56:35,331 - tornado.access - INFO - ::1 200 base.error:None 2020-07-16 22:56:35
+[I 200716 18:56:35 application:171] ::1 200 base.error:None 2020-07-16 22:56:35
+2020-07-16 18:56:35,338 - tornado.access - WARNING - ::1 404 GET /employees (::1) 12.03ms 2020-07-16 22:56:35
+[W 200716 18:56:35 application:167] ::1 404 GET /employees (::1) 12.03ms 2020-07-16 22:56:35
+2020-07-16 19:02:59,180 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 19:02:59,180 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 19:02:59,180 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 19:02:59,180 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 19:02:59,180 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 19:02:59,181 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(title, Column)
+2020-07-16 19:02:59,196 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 19:02:59,196 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 19:02:59,196 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 19:02:59,196 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(title, Column)
+2020-07-16 19:02:59,197 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 19:02:59,197 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 19:02:59,202 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(title, Column)
+2020-07-16 19:03:29,189 - tornado.access - INFO - ::1 200 GET /hello (::1) 12.00ms 2020-07-16 23:03:29
+[I 200716 19:03:29 application:167] ::1 200 GET /hello (::1) 12.00ms 2020-07-16 23:03:29
+2020-07-16 19:03:49,821 - tornado.application - ERROR - Uncaught exception GET /testresults (::1)
+HTTPServerRequest(protocol='http', host='localhost:8080', method='GET', uri='/testresults', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "c:\Projects\python\splunk\rest_api\employees\handlers\base.py", line 166, in get
+    return f(*args, **params)
+  File "c:\Projects\python\splunk\rest_api\employees\handlers\shorties.py", line 53, in show_results
+    self.render("testreport.html")
+  File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\web.py", line 856, in render
+    html = self.render_string(template_name, **kwargs)
+  File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\web.py", line 1002, in render_string
+    t = loader.load(template_name)
+  File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\template.py", line 445, in load
+    self.templates[name] = self._create_template(name)
+  File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\template.py", line 476, in _create_template
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Projects\\python\\splunk\\rest_api\\employees\\views\\testreport.html'
+[E 200716 19:03:49 web:1788] Uncaught exception GET /testresults (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8080', method='GET', uri='/testresults', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\web.py", line 1701, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "c:\Projects\python\splunk\rest_api\employees\handlers\base.py", line 166, in get
+        return f(*args, **params)
+      File "c:\Projects\python\splunk\rest_api\employees\handlers\shorties.py", line 53, in show_results
+        self.render("testreport.html")
+      File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\Vlad\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Projects\\python\\splunk\\rest_api\\employees\\views\\testreport.html'
+2020-07-16 19:03:49,838 - tornado.access - ERROR - ::1 500 GET /testresults (::1) 28.04ms 2020-07-16 23:03:49
+[E 200716 19:03:49 application:167] ::1 500 GET /testresults (::1) 28.04ms 2020-07-16 23:03:49
+2020-07-16 19:03:49,968 - tornado.access - INFO - ::1 200 GET /static/images/bug.png?v=1a39d8b56727c9a0d0bf53b19d85d63a (::1) 3.01ms 2020-07-16 23:03:49
+[I 200716 19:03:49 application:167] ::1 200 GET /static/images/bug.png?v=1a39d8b56727c9a0d0bf53b19d85d63a (::1) 3.01ms 2020-07-16 23:03:49
+2020-07-16 19:04:00,649 - tornado.access - INFO - ::1 304 GET / (::1) 17.00ms 2020-07-16 23:04:00
+[I 200716 19:04:00 application:167] ::1 304 GET / (::1) 17.00ms 2020-07-16 23:04:00
+2020-07-16 19:04:20,087 - tornado.access - INFO - ::1 200 GET //index/2 (::1) 9.00ms 2020-07-16 23:04:20
+[I 200716 19:04:20 application:167] ::1 200 GET //index/2 (::1) 9.00ms 2020-07-16 23:04:20
+2020-07-16 19:04:20,087 - tornado.access - INFO - ::1 200 base.error:None 2020-07-16 23:04:20
+[I 200716 19:04:20 application:171] ::1 200 base.error:None 2020-07-16 23:04:20
+2020-07-16 19:04:20,095 - tornado.access - WARNING - ::1 404 GET //index/2 (::1) 17.00ms 2020-07-16 23:04:20
+[W 200716 19:04:20 application:167] ::1 404 GET //index/2 (::1) 17.00ms 2020-07-16 23:04:20
+2020-07-16 19:04:24,175 - tornado.access - INFO - ::1 200 GET //index/3 (::1) 10.00ms 2020-07-16 23:04:24
+[I 200716 19:04:24 application:167] ::1 200 GET //index/3 (::1) 10.00ms 2020-07-16 23:04:24
+2020-07-16 19:04:24,175 - tornado.access - INFO - ::1 200 base.error:None 2020-07-16 23:04:24
+[I 200716 19:04:24 application:171] ::1 200 base.error:None 2020-07-16 23:04:24
+2020-07-16 19:04:24,182 - tornado.access - WARNING - ::1 404 GET //index/3 (::1) 17.00ms 2020-07-16 23:04:24
+[W 200716 19:04:24 application:167] ::1 404 GET //index/3 (::1) 17.00ms 2020-07-16 23:04:24
+2020-07-16 19:05:44,855 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 19:05:44,855 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 19:05:44,855 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 19:05:44,855 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 19:05:44,855 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 19:05:44,856 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(title, Column)
+2020-07-16 19:06:21,099 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 19:06:21,100 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 19:06:21,100 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 19:06:21,100 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(title, Column)
+2020-07-16 19:06:21,100 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 19:06:21,100 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 19:06:21,108 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(title, Column)
+2020-07-16 19:07:09,317 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 19:07:09,317 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 19:07:09,317 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 19:07:09,317 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(title, Column)
+2020-07-16 19:07:09,318 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 19:07:09,318 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 19:07:09,325 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 19:07:09,325 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 19:07:09,326 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 19:07:09,326 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 19:07:09,326 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 19:07:31,160 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 19:07:31,160 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop title
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop title
+2020-07-16 19:07:31,161 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 19:07:31,162 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 19:07:31,162 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 19:07:31,162 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 19:07:31,162 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 19:07:31,162 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop title
+2020-07-16 19:07:31,162 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 19:07:31,163 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 19:07:31,163 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 19:07:31,164 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 19:07:31,164 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 19:07:31,164 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 19:09:19,625 - sqlalchemy.engine.base.Engine - INFO - SHOW VARIABLES LIKE 'sql_mode'
+2020-07-16 19:09:19,625 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 19:09:19,629 - sqlalchemy.engine.base.Engine - INFO - SHOW VARIABLES LIKE 'lower_case_table_names'
+2020-07-16 19:09:19,629 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 19:09:19,632 - sqlalchemy.engine.base.Engine - INFO - SELECT DATABASE()
+2020-07-16 19:09:19,632 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 19:09:19,633 - sqlalchemy.engine.base.Engine - INFO - show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+2020-07-16 19:09:19,633 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 19:09:19,636 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+2020-07-16 19:09:19,636 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 19:09:19,637 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+2020-07-16 19:09:19,637 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 19:09:19,637 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+2020-07-16 19:09:19,637 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 19:09:19,638 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+2020-07-16 19:09:19,639 - sqlalchemy.engine.base.Engine - INFO - SELECT employees.id AS employees_id, employees.created_at AS employees_created_at, employees.last_updated AS employees_last_updated, employees.title AS employees_title, employees.emp_no AS employees_emp_no, employees.birth_date AS employees_birth_date, employees.first_name AS employees_first_name, employees.last_name AS employees_last_name, employees.hire_date AS employees_hire_date 
+FROM employees
+2020-07-16 19:09:19,639 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 19:46:58,079 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 19:46:58,079 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 19:46:58,079 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 19:46:58,079 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 19:46:58,079 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 19:52:29,925 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 19:52:29,925 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 19:52:29,925 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 19:52:29,926 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 19:52:29,926 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 19:56:02,008 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 19:56:02,008 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 19:56:02,008 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 19:56:02,008 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 19:56:02,009 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 20:00:12,736 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 20:00:12,737 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 20:00:12,737 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 20:00:12,737 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 20:00:12,737 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 20:03:58,213 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 20:03:58,213 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 20:03:58,213 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 20:03:58,214 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 20:03:58,214 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 20:07:05,580 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 20:07:05,580 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 20:07:05,580 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 20:07:05,580 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 20:07:05,580 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 20:07:49,071 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 20:07:49,071 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 20:07:49,071 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 20:07:49,071 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 20:07:49,071 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 20:09:04,268 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 20:09:04,269 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 20:09:04,269 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 20:09:04,269 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 20:09:04,269 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 20:23:56,802 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 20:23:56,803 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 20:23:56,803 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 20:23:56,803 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 20:23:56,803 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 20:23:56,804 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 20:23:56,804 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 20:23:56,804 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 20:23:56,804 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 20:23:56,805 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 20:24:15,111 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 20:24:15,111 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 20:24:15,112 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 20:24:15,112 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 20:24:15,112 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 20:24:15,112 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 20:24:15,113 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 20:24:15,113 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 20:24:15,113 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 20:24:15,113 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 22:11:09,720 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 22:11:09,720 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 22:11:09,720 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 22:11:09,720 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 22:11:09,720 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 22:11:09,721 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 22:11:09,722 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 22:11:09,722 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 22:11:09,722 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 22:11:09,722 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 22:11:24,766 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 22:11:24,766 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 22:11:24,768 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 22:11:24,768 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 22:11:24,768 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 22:11:24,768 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 22:11:24,768 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 22:11:24,769 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 22:11:24,769 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 22:11:24,769 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 22:14:01,615 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 22:14:01,615 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 22:14:01,616 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 22:14:01,616 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 22:14:01,616 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 22:14:01,617 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 22:14:01,617 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 22:14:01,617 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 22:14:01,617 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 22:14:01,617 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 22:14:09,011 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 22:14:09,011 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 22:14:09,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 22:14:09,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 22:14:09,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 22:14:09,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 22:14:09,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 22:14:09,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 22:14:09,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 22:14:09,013 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 22:15:45,635 - sqlalchemy.engine.base.Engine - INFO - SHOW VARIABLES LIKE 'sql_mode'
+2020-07-16 22:15:45,635 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 22:15:45,670 - sqlalchemy.engine.base.Engine - INFO - SHOW VARIABLES LIKE 'lower_case_table_names'
+2020-07-16 22:15:45,670 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 22:15:45,678 - sqlalchemy.engine.base.Engine - INFO - SELECT DATABASE()
+2020-07-16 22:15:45,678 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 22:15:45,681 - sqlalchemy.engine.base.Engine - INFO - show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+2020-07-16 22:15:45,681 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 22:15:45,701 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+2020-07-16 22:15:45,701 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 22:15:45,703 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+2020-07-16 22:15:45,704 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 22:15:45,704 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+2020-07-16 22:15:45,704 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 22:15:45,706 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+2020-07-16 22:15:45,707 - sqlalchemy.engine.base.Engine - INFO - SELECT employees.id AS employees_id, employees.created_at AS employees_created_at, employees.last_updated AS employees_last_updated, employees.emp_no AS employees_emp_no, employees.birth_date AS employees_birth_date, employees.first_name AS employees_first_name, employees.last_name AS employees_last_name, employees.hire_date AS employees_hire_date 
+FROM employees
+2020-07-16 22:15:45,707 - sqlalchemy.engine.base.Engine - INFO - {}
+2020-07-16 22:19:32,859 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 22:19:32,859 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 22:19:32,859 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 22:19:32,859 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 22:19:32,859 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 22:19:32,860 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 22:19:32,860 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 22:19:32,860 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 22:19:32,860 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 22:19:32,860 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 22:19:32,887 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 22:19:32,887 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 22:19:32,887 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 22:19:32,887 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 22:19:32,887 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 22:19:32,887 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 22:19:32,887 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 22:19:32,887 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 22:19:32,888 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 22:19:32,888 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 22:19:34,141 - tornado.access - INFO - ::1 304 GET / (::1) 164.00ms 2020-07-17 02:19:34
+[I 200716 22:19:34 application:167] ::1 304 GET / (::1) 164.00ms 2020-07-17 02:19:34
+2020-07-16 22:22:35,541 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 22:22:35,542 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 22:22:35,542 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 22:22:35,542 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 22:22:35,542 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 22:22:35,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 22:22:35,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 22:22:35,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 22:22:35,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 22:22:35,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 22:22:35,556 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 22:22:35,556 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 22:22:35,556 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 22:22:35,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 22:22:35,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 22:22:35,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 22:22:35,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 22:22:35,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 22:22:35,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 22:22:35,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 22:22:52,985 - tornado.access - INFO - ::1 200 GET //employees (::1) 10.00ms 2020-07-17 02:22:52
+[I 200716 22:22:52 application:167] ::1 200 GET //employees (::1) 10.00ms 2020-07-17 02:22:52
+2020-07-16 22:22:52,985 - tornado.access - INFO - ::1 200 base.error:None 2020-07-17 02:22:52
+[I 200716 22:22:52 application:171] ::1 200 base.error:None 2020-07-17 02:22:52
+2020-07-16 22:22:53,003 - tornado.access - WARNING - ::1 404 GET //employees (::1) 28.00ms 2020-07-17 02:22:53
+[W 200716 22:22:53 application:167] ::1 404 GET //employees (::1) 28.00ms 2020-07-17 02:22:53
+2020-07-16 22:23:36,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 22:23:36,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 22:23:36,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 22:23:36,544 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 22:23:36,544 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 22:23:36,544 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 22:23:36,545 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 22:23:36,545 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 22:23:36,545 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 22:23:36,545 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 22:23:40,193 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 22:23:40,194 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 22:23:40,194 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 22:23:40,194 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 22:23:40,194 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 22:23:40,195 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 22:23:40,195 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 22:23:40,195 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 22:23:40,195 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 22:23:40,195 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 22:24:41,603 - tornado.general - INFO - c:\Projects\python\splunk\rest_api\employees\models\sql\employees.py modified; restarting server
+[I 200716 22:24:41 autoreload:202] c:\Projects\python\splunk\rest_api\employees\models\sql\employees.py modified; restarting server
+2020-07-16 22:24:42,698 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 22:24:42,698 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 22:24:42,698 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 22:24:42,699 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 22:24:42,699 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 22:24:42,699 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 22:24:42,699 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 22:24:42,700 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 22:24:42,700 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 22:24:42,700 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 22:24:42,715 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 22:24:42,715 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 22:24:42,715 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 22:24:42,715 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 22:24:42,715 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 22:24:42,716 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 22:24:42,716 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 22:24:42,716 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 22:24:42,716 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 22:24:42,716 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
+2020-07-16 22:24:44,258 - tornado.general - INFO - c:\Projects\python\splunk\rest_api\employees\models\sql\employees.py modified; restarting server
+[I 200716 22:24:44 autoreload:202] c:\Projects\python\splunk\rest_api\employees\models\sql\employees.py modified; restarting server
+2020-07-16 22:24:45,364 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(id, Column)
+2020-07-16 22:24:45,365 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(created_at, Column)
+2020-07-16 22:24:45,365 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_updated, Column)
+2020-07-16 22:24:45,365 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<employees>, primary_key=True, nullable=False)])
+2020-07-16 22:24:45,365 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) constructed
+2020-07-16 22:24:45,366 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(emp_no, Column)
+2020-07-16 22:24:45,366 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(birth_date, Column)
+2020-07-16 22:24:45,366 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(first_name, Column)
+2020-07-16 22:24:45,366 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(last_name, Column)
+2020-07-16 22:24:45,366 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _configure_property(hire_date, Column)
+2020-07-16 22:24:45,374 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() started
+2020-07-16 22:24:45,374 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop id
+2020-07-16 22:24:45,374 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop created_at
+2020-07-16 22:24:45,374 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_updated
+2020-07-16 22:24:45,374 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop emp_no
+2020-07-16 22:24:45,374 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop birth_date
+2020-07-16 22:24:45,375 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop first_name
+2020-07-16 22:24:45,375 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop last_name
+2020-07-16 22:24:45,375 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) initialize prop hire_date
+2020-07-16 22:24:45,375 - sqlalchemy.orm.mapper.Mapper - INFO - (Employees|employees) _post_configure_properties() complete
